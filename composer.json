@@ -1,0 +1,12 @@
+{
+        "name"       : "wturrell/post-template",
+        "description": "WordPress post-template plugin (fork)",
+        "keywords"   : ["wordpress"],
+        "type"       : "wordpress-theme",
+        "homepage"   : "https://github.com/wturrell/post-template",
+        "license"    : "GPL-2.0",
+        "require"    : {
+                "php": ">=7.0.0",
+                "composer/installers": "~1.0"
+        }
+}
