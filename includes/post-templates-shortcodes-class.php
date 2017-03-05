@@ -11,7 +11,7 @@ class PostTemplatesShortcodes {
     /**
     * Constructor is responsible for registering the shortcodes
     */
-    function PostTemplatesShortcodes() {                                             
+    function __construct() {
         add_shortcode( 'post-template', array(&$this, 'insert_post_template' ) );         
     }
  

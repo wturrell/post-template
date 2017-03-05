@@ -23,7 +23,7 @@ class PostTemplatesPlugin {
 	/**
 	* Constructor
 	*/
-	function PostTemplatesPlugin($_post_templates_dao) {
+	function __construct($_post_templates_dao) {
 		$this->post_templates_dao = $_post_templates_dao;
 		$this->load_options();
 		$this->one_time_actions();

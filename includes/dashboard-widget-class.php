@@ -24,7 +24,7 @@ class PostTemplatesDashboardWidget {
 	/**
 	* Constructor
 	*/
-	function PostTemplatesDashboardWidget() {
+	function __construct() {
 		$this->load_options();
 	}
 	

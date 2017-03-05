@@ -23,7 +23,7 @@ class PostTemplates1xImporter {
 	/*
 	* Constructor
 	*/
-	function PostTemplates1xImporter() {
+	function __construct() {
 	}
 
 	/*

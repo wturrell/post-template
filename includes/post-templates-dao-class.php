@@ -23,7 +23,7 @@ class PostTemplatesDAO {
 	/**
 	* Constructor
 	*/
-	function PostTemplatesDAO() {
+	function __construct() {
 		global $wpdb;
 		$this->templates_table_name = $wpdb->prefix . "pt_templates";
 	}
