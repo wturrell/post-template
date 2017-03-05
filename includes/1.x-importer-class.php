@@ -56,4 +56,3 @@ class PostTemplates1xImporter {
 
 } // if (!class_exists("PostTemplates1xImporter")) {
 
-?>

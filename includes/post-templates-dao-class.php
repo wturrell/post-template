@@ -220,5 +220,3 @@ class PostTemplatesDAO {
 } // class PostTemplatesDAO {
 
 } // if (!class_exists("PostTemplatesDAO")) {
-
-?>

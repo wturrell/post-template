@@ -530,6 +530,3 @@ class PostTemplatesPlugin {
 } // class PostTemplatesPlugin {
 
 } // if (!class_exists("PostTemplatesPlugin")) {
-
-
-?>

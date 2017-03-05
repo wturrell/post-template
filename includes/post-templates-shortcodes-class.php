@@ -45,4 +45,3 @@ class PostTemplatesShortcodes {
         return $template->content;
     }   
 }
-?>
