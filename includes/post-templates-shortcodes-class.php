@@ -18,7 +18,7 @@ class PostTemplatesShortcodes {
     /**
     * Insert a post template in the content of the post. Syntax: [post-template id="2" /]
     */
-    function insert_post_template($atts, $content = '') {
+    function insert_post_template($atts): string {
         global $post_templates_dao;
         
         // Extract the ID of the template we are looking for
