@@ -3,7 +3,7 @@
 Plugin Name: Post Template
 Plugin URI: https://github.com/wturrell/post-template
 Description: (Fork) A plugin that allows you to create post templates in order to save time writing posts having the same structure. You are having the latest free version. However, since it has gone into commercial licensing, Post Template has plenty of bug fixes and lots of new cool features. Please visit <a href="http://post-templates.vincentprat.info">the plugin page</a> to know more about it!
-Version: 3.4.8.1
+Version: 3.4.8.2
 Author: Vincent Prat/William Turrell
 Author URI: http://www.vincentprat.info
 */
@@ -62,7 +62,7 @@ $post_templates_shortcodes = new PostTemplatesShortcodes();
 // Load the plugin text domain for internationalisation
 if (!function_exists('post_templates_init_i18n')) {
 	function post_templates_init_i18n() {
-		load_plugin_textdomain(POST_TEMPLATES_I18N_DOMAIN, 'wp-content/plugins/post-template');
+		load_plugin_textdomain(POST_TEMPLATES_I18N_DOMAIN, false, 'wp-content/plugins/post-template');
 	} // function post_templates_init_i18n()
 
 	post_templates_init_i18n();
